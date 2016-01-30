@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "debug": "node debug app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/boilerplate-garage/express-mysql-boilerplate/issues"
   },
-  "homepage": "https://github.com/boilerplate-garage/express-mysql-boilerplate#readme"
+  "homepage": "https://github.com/boilerplate-garage/express-mysql-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "http-error": "0.0.6",
+    "mysql": "^2.10.2",
+    "util": "^0.10.3"
+  }
 }
